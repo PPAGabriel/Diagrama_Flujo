@@ -6,7 +6,7 @@ graph TD;
     B--=1-->introducirLado;
     B--=2-->introducirB,H;
     B--=3-->introducirR;
-    B--=default>opcionIncorrecta;
+    B--=default-->opcionIncorrecta;
     introducirLado-->sup=L*L;
     sup=L*L-->VisualizarSup;
     VisualizarSup-->Fin
